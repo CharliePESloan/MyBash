@@ -1,6 +1,9 @@
 # File editing
 alias ea='vim ~/.bash_aliases; source ~/.bash_aliases && source $HOME/.bash_aliases && echo "aliases sourced  --ok."'
-alias rlb='source ~/.bash_aliases && source $HOME/.bash_aliases && echo "aliases sourced  --ok."'
+alias eb='vim ~/.bashrc; exec bash'
+alias en='vim ~/Bash/nav.sh; exec bash'
+#alias rlb='source ~/.bash_aliases && source $HOME/.bash_aliases && echo "aliases sourced  --ok."'
+alias rlb='exec bash'
 
 # Vim Commands
 alias :edit="vim"

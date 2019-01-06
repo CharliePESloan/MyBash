@@ -129,7 +129,7 @@ function jcr {
 }
 export -f jcr
 
-for filename in ~/Bash/*; do
+for filename in ~/MyBash/Bash/*; do
 	source "$filename";
 done
 
