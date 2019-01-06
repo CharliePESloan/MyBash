@@ -1,7 +1,7 @@
 # File editing
 alias ea='vim ~/.bash_aliases; source ~/.bash_aliases && source $HOME/.bash_aliases && echo "aliases sourced  --ok."'
 alias eb='vim ~/.bashrc; exec bash'
-alias en='vim ~/Bash/nav.sh; exec bash'
+alias en='vim ~/MyBash/Bash/nav.sh; exec bash'
 #alias rlb='source ~/.bash_aliases && source $HOME/.bash_aliases && echo "aliases sourced  --ok."'
 alias rlb='exec bash'
 
@@ -11,20 +11,14 @@ alias :x="exit"
 alias :q="exit"
 alias :q!="exit"
 
-# Navigation
-alias home="cd ~"
-alias back="cd -"
-alias C++="cd ~/Programs/C++"
-alias Python="cd ~/Programs/Python"
-alias xtrek="cd ~/Programs/Java/SoftwareEngineering/Assessment/Ram-XTrek"
-alias crap="cd ~/Programs/Python/CRAP/CRoute"
-function lcd() {
-	cd $1;
-	ls;
-}
-
 # Git
 alias add="git add "
 alias commit="git commit -m "
 alias pull="git pull"
 alias push="git push -u origin master"
+alias clone="git clone https://github.com/CharliePESloan/"
+
+alias v="gnome-terminal -- vim"
+alias eclipse="~/eclipse/cpp-2018-09/eclipse/eclipse"
+alias upgrade="sudo apt update; sudo apt upgrade; sudo apt autoremove"
+alias reload-bash=". ~/.bashrc"
