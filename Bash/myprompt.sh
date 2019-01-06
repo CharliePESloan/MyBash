@@ -1,5 +1,6 @@
 function myprompt()
 {
+	echo;
 	ls;
 }
 
