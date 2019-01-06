@@ -16,7 +16,6 @@ alias add="git add "
 alias commit="git commit -m "
 alias pull="git pull"
 alias push="git push -u origin master"
-alias clone="git clone https://github.com/CharliePESloan/"
 
 alias v="gnome-terminal -- vim"
 alias eclipse="~/eclipse/cpp-2018-09/eclipse/eclipse"
